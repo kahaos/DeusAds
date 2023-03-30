@@ -1,0 +1,33 @@
+/* Add styles for the close button */
+.close-button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 0.5rem;
+  background-color: transparent;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+body {
+  position: relative;
+}
+
+.lock-box {
+  position: fixed;
+  width: 200px;
+  height: 200px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  overflow-y: scroll;
+  padding: 1rem;
+}
+
+.settings {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  padding: 1rem;
+  background-color: #fff;
+  border: 1px solid #ccc;
+}
